@@ -2144,17 +2144,19 @@
   }
   
   #header {
-    position: fixed;
+    /* position: fixed; */
     left: 0;
     top: 0;
     right: 0;
     transition: all 0.5s;
     z-index: 997;
+    background-color: #25305e;
+    height: 146px;
   }
   
   #header.header-scrolled {
-    transition: all 0.5s;
-    background-color: rgba(4, 9, 30, 0.9);
+    transition: all 0.5s ease 0s;
+    background-color:#7A87BC;
     height: 142px;
 }
   
@@ -5123,80 +5125,111 @@
   color:inherit;
 }
 
-@media (max-width:767px) {
-  .team-boxed h2 {
-    margin-bottom:25px;
-    padding-top:25px;
-    font-size:24px;
-  }
+
+
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 4px 15px;
+    cursor: pointer;
 }
 
-.team-boxed .intro {
-  font-size:16px;
-  max-width:500px;
-  margin:0 auto;
+
+
+/* .container {
+  display: flex;
+  width: 1040px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+} */
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  height: 600px;
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
 }
 
-.team-boxed .intro p {
-  margin-bottom:0;
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #47bcd4;
+}
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
 }
 
-.team-boxed .people {
-  padding:50px 0;
+.card-body p {
+  font-size: 13px;
+  /* margin: 0 0 40px; */
+}
+.user {
+  display: flex;
+  margin-top: auto;
 }
 
-.team-boxed .item {
-  text-align:center;
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
 }
 
-.team-boxed .item .box {
-  text-align:center;
-  padding:30px;
-  background-color:#fff;
-  margin-bottom:30px;
+.user-info a {
+  font-size: 20px;
+  margin: 20px;
+padding: 2px;
 }
 
-.team-boxed .item .name {
-  font-weight:bold;
-  margin-top:28px;
-  margin-bottom:8px;
-  color:inherit;
+
+.card-body h4{
+  margin-top: 10px;
+  font-size: 15px;
+ 
 }
 
-.team-boxed .item .title {
-  text-transform:uppercase;
-  font-weight:bold;
-  color:#d0d0d0;
-  letter-spacing:2px;
-  font-size:13px;
+.sub{
+  font-weight: bold;
 }
 
-.team-boxed .item .description {
-  font-size:15px;
-  margin-top:15px;
-  margin-bottom:20px;
+.rs{
+  color: #000;
+  
 }
-
-.team-boxed .item img {
-  max-width:160px;
-}
-
-.team-boxed .social {
-  font-size:18px;
-  color:#a2a8ae;
-}
-
-.team-boxed .social a {
-  color:inherit;
-  margin:0 10px;
-  display:inline-block;
-  opacity:0.7;
-}
-
-.team-boxed .social a:hover {
-  opacity:1;
-}
-
 
   /*Teachers profile end*/
 
