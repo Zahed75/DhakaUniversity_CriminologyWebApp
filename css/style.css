@@ -3114,7 +3114,7 @@
   }
   
   .cta-two-area {
-    background: #f7631b;
+    background: #191818;
     padding: 90px 0px;
   }
   
@@ -4915,7 +4915,7 @@
   }
   
   .footer-area {
-    background-color: #04091e;
+    background-color: #131314;
   }
   
   .single-footer-widget h4 {
@@ -5235,3 +5235,12 @@ padding: 2px;
 
   /* main css end */
   
+
+
+  #content ol li{
+     list-style:circle;
+  }
+
+#content ul li{
+    list-style: disc;
+  }
