@@ -5239,8 +5239,22 @@ padding: 2px;
 
   #content ol li{
      list-style:circle;
+     
   }
 
 #content ul li{
     list-style: disc;
   }
+
+  /* Syllabus Start */
+
+
+.int{
+  color: salmon;
+  text-align: center;
+}
+
+#content p{
+  text-align: justify;
+}
+  /* Syllabus End */
