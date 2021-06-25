@@ -5,7 +5,7 @@
   .banner_home {
     height: 720px;
     width: auto;
-    background-color: #04091e;
+    background-color: #0F351C;
   }
   
   .bg-orange {
@@ -2065,7 +2065,7 @@
   }
   
   .header-top {
-    background: #04091e;
+    background: #076127;
     font-size: 12px;
     padding: 1px;
   }
@@ -2150,7 +2150,7 @@
     right: 0;
     transition: all 0.5s;
     z-index: 997;
-    background-color: #25305e;
+    background-color: #0F351C;
     height: 146px;
   }
   
@@ -2544,7 +2544,7 @@
   }
   
   .banner-area .overlay-bg {
-    background-color: #7A87BC;
+    background-color: #0F351C;
   }
   
   @media (max-width: 767px) {
@@ -2608,7 +2608,7 @@
   
   .feature-area {
     /* margin-top: 13px; */
-    background-color: #04091e;
+    background-color: #0F351C;
   }
   
   .single-feature {
@@ -4915,7 +4915,7 @@
   }
   
   .footer-area {
-    background-color: #131314;
+    background-color: #0F351C;
   }
   
   .single-footer-widget h4 {
@@ -4950,8 +4950,9 @@
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
+    color: white;
     transition: all 0.3s ease 0s;
-  }
+}
   
   .single-footer-widget ul li a:hover {
     color: #f7631b;
